@@ -1,0 +1,11 @@
+1. usertrap
+
+2. 0x7. That value represent the system number, which is used to identify which system call to trigger.
+3. kernel mode
+
+4.(1) lw	a3,0(zero) # 0 <_entry-0x80000000>
+  (2) a3
+
+5. Because address is unused and is not in the kernel address space. It it invalid to access that address. yes.
+
+6. initcode 0
